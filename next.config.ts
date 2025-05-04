@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://localhost:8000/:path*', // Backend URL
+        destination: 'https://drug-toxicity-predictor-backend.onrender.com/:path*', // Backend URL
       },
     ]
   },
